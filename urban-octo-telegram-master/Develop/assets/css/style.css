@@ -1,13 +1,12 @@
+/* begin stylesheet
+    "*" is used as a general rule for the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* Begin styling for the head section of the page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,6 +38,13 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+/* end styling for head section of the page*/
+
+/* begin styling for the body section of the page*/ 
+body {
+    background-color: #d9dcd6;
 }
 
 a {
@@ -204,6 +210,9 @@ p {
     font-size: 20px;
 }
 
+/* end styling for body section of the page*/ 
+
+/* begin styling section for footer section of the page*/
 .footer {
     padding: 30px;
     clear: both;
@@ -214,3 +223,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* end styling for foor section of the page
+    end styleshet */
